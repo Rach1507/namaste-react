@@ -94,3 +94,12 @@ root.render(<App />);
 An app fully built with React will usually only have one createRoot call for its root component. A page that uses “sprinkles” of React for parts of the page may have as many separate roots as needed.
 
 ![alt text](image-4.png)
+
+
+
+
+
+
+
+- clear all html inside root 
+- reactNode:  JSX like <App /> /  a React element constructed with createElement(), a string, a number, null, or undefined.
