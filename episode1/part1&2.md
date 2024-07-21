@@ -30,6 +30,15 @@
 React cdn
 what is cdn 
 what is crossirigin
+What is crossorigin in script tag?
+● What is CDN? Why do we use it?
+Difference between a Library and Framework?
+
+
+
+
+
+
 React 
 reactDom
 exported from those files
