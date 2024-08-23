@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAAS;IACL,IAAI,IAAI;IACR;IACA,SAAS;QACL,QAAQ,GAAG,CAAC;IAEhB;IAEA,IAAI,IAAI;AACZ;AAEA","sources":["src/index.js"],"sourcesContent":["function a() {\n    var b = 10; \n    c();\n    function c() {\n        console.log(b);\n        \n    }\n\n    var b = 100;\n}\n\na();"],"names":[],"version":3,"file":"index.579125c3.js.map","sourceRoot":"/__parcel_source_root/"}
