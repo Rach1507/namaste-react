@@ -73,3 +73,6 @@ there are multiple events . callbacks attached to it , multiple times , but only
  what goes into the microtask queue - microtasks - promise callbacks , mutation observer callbacks , queueMicrotask
 
  when the call stack is empty - the event loop checks the microtask queue - if there is anything in the microtask queue - it pushes it to the call stack
+
+
+ mutation observer - the program that keeps observing the dom - if there is any change in the dom - the callback is pushed to the microtask queue

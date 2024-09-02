@@ -6,6 +6,8 @@ function wrongSetTimeOut(){
     }
 }
 
+// wrongSetTimeOut();
+
 function setTimeOutUsingLet(){
     // let - block scope - new variable for each iteration - 
     for(let i = 0; i < 5; i++){
@@ -30,4 +32,4 @@ function setTimeOutUsingClosure(){
     }   
 }
 
-
+setTimeOutUsingClosure();

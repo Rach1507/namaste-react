@@ -52,3 +52,12 @@ GEC
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
+
+
+
+I also learnt about - source tab in chrome dev tools - to see the source code of the website
+
+to see global exec context - console.log(this) - gives window object
+
+call stack 
+debugger - to pause the code execution at a particular line

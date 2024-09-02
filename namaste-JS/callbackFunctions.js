@@ -29,6 +29,7 @@ callFunction(greet);
 
 
     /*
+    Chrome dev tools 
     event listeners - tab - click event -
     // scope [2] - closure & global scope
     // handler - xyz

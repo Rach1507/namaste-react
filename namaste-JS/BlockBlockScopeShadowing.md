@@ -11,7 +11,7 @@ ex : if
 BLOck scope -
 
 
-var - function scope
+var - function scope ?????
 let - block scope
 const - block scope
 

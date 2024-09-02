@@ -21,7 +21,7 @@ var helllo = function(){
 // difference  between function statement and function expression - hoisting
 
 // function statement - hoisted - can be called before the function is defined
-// function expression - not hoisted - can be called only after the function is defined
+// function expression - not hoisted - can be called only after the function is defined in order of execution 
 
 greet();
 helllo();
@@ -41,6 +41,13 @@ helllo();
 var named = function xyz (){
     console.log(xyz);
 }
+
+named();
+// ƒ xyz (){
+    // console.log(xyz);
+// }
+
+
 
 // xyz can be accessed inside this function , but not created / present in outer scope  - 
 // 
