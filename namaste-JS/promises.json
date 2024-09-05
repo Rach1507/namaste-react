@@ -1,0 +1,51 @@
+{
+    "topic": "Promises",
+    "title": "Promises in JavaScript",
+    "desc":"",
+    "date": "",
+    "dates read ": "",
+    "info":{
+        "what are promises": "Promise is an obj that represents the eventual completion or rejection of an async operation and its resulting value",
+        "why use promises": "Promises are used to handle asynchronous operations in JavaScript. They are easy to manage when dealing with multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code",
+
+        "what does promise object contain":{
+            "state": "pending, fulfilled, or rejected",
+            "result": "the value of the operation, if fulfilled, or the reason for the rejection",
+            "callbacks": "an array of callback functions to be executed when the promise is settled"
+        },
+
+        "how does it differ from callbacks": {
+            "callback hell": "promise chaining creates linear more manageable code  ",
+            "error handling": "promises have a separate method for error handling (catch)",
+            "inversion of control": "we are keeping control of ur program to ourself by attaching the callback to promise , we are passing callback / giving control to another function , there is more trust"
+        },
+
+        "Extras:":{
+            "return value of then": "we have to return value of the then() method is a Promise in case of promise chaining",
+            "promises are immutable": "Once a promise is settled, it cannot be resettled, we can not change the data of the promise"
+
+        },
+        "states of promises": {
+            "pending": "initial state, neither fulfilled nor rejected",
+            "fulfilled": "meaning that the operation completed successfully",
+            "rejected": "meaning that the operation failed"
+        },
+
+
+        "syntax": {
+            "creating a promise": "const promise = new Promise((resolve, reject) => { // executor function })",
+            "resolve": "The resolve function is called when the promise is fulfilled",
+            "reject": "The reject function is called when the promise is rejected",
+            "then": "The then() method takes two arguments, a callback for the success case of the promise, and another for the failure case",
+            "catch": "The catch() method is used to handle the rejection of a promise",
+            "finally": "The finally() method is used to perform cleanup operations, such as freeing up resources"
+        },
+        "example": {
+            "fetching data": "const promise = new Promise((resolve, reject) => { setTimeout(() => { resolve('Data fetched!') }, 2000) })",
+            "using then": "promise.then((data) => { console.log(data) })",
+            "using catch": "promise.catch((error) => { console.error(error) })",
+            "using finally": "promise.finally(() => { console.log('Cleanup') })"
+        }
+
+    }
+}
