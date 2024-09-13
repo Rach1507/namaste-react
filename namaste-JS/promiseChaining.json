@@ -1,0 +1,8 @@
+
+{
+
+  "important to note when chaining ": "return whatever we want to pass to the next level of the chain , return it ",
+  "handling errors in promise chaining": "use catch at the end of the chain to catch any errors that were thrown anywhere in the chain"
+
+}
+

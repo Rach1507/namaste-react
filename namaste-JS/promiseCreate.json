@@ -1,20 +1,17 @@
 {
     "title": "Create Promise ",
     "desc": "last lecture - consume a promise , this lecture - producer side of the promise - we are Creating a promise in JavaScript",
-    "date": "",
-    "dates read ": "",
-    "how to create a promise  ": "new Promise() constructor",
+    "date": "11-9-2024",
+    "dates read ": ["12-9-24"],
+    "how to create a promise  ": "new Promise() constructor of Promise API that javascript provides",
     "syntax": {
         "creating a promise":
-         "const promise = new Promise((resolve, reject) => { \n })",
-
-        "resolve": "The resolve function is called when the promise is fulfilled",
-        "reject": "The reject function is called when the promise is rejected",
-        "then": "The then() method takes two arguments, a callback for the success case of the promise, and another for the failure case",
-        "catch": "The catch() method is used to handle the rejection of a promise",
-        "finally": "The finally() method is used to perform cleanup operations, such as freeing up resources"
+         "new Promise() constructor takes a fucntion having 2 params : resolve and reject .\n const promise = new Promise((resolve, reject) => { \n })",
+"what should be written inside promise" : "logic that will be executed asynchronously and might take some time to complete",
+        "resolve": "The resolve function is function passed by js to us , we should call if everything is successful",
+        "reject": "The reject function , is function passed by js to us , we should call if there is an error"
     },
-    "producer": "",
+    "producer": "from producer side we can resolve or reject the promise",
     "consumer": "should write code to handle error scnearios , "
     
 }

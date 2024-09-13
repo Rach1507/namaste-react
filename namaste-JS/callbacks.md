@@ -1,5 +1,15 @@
 
 
+what is a callback function ? 
+what is it used for ? 
+what are the benfits ?
+what are the issues with callbacks ?
+How can be resolved ?
+explain all of this with an example ?
+
+
+
+
 callback - function that is passed as an argument to another function , which will be called ack at a latter point of time in the code . 
 
 callback - benefits - 

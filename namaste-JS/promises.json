@@ -20,7 +20,7 @@
             "inversion of control": "we are keeping control of ur program to ourself by attaching the callback to promise , we are passing callback / giving control to another function , there is more trust"
         },
 
-        "Extras:":{
+        "Misc info to Remember :":{
             "return value of then": "we have to return value of the then() method is a Promise in case of promise chaining",
             "promises are immutable": "Once a promise is settled, it cannot be resettled, we can not change the data of the promise"
 
@@ -40,12 +40,13 @@
             "catch": "The catch() method is used to handle the rejection of a promise",
             "finally": "The finally() method is used to perform cleanup operations, such as freeing up resources"
         },
-        "example": {
-            "fetching data": "const promise = new Promise((resolve, reject) => { setTimeout(() => { resolve('Data fetched!') }, 2000) })",
+        "example of consuming a promise": {
+            
             "using then": "promise.then((data) => { console.log(data) })",
             "using catch": "promise.catch((error) => { console.error(error) })",
             "using finally": "promise.finally(() => { console.log('Cleanup') })"
         }
+
 
     }
 }

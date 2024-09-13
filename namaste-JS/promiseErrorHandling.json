@@ -1,0 +1,8 @@
+{
+    "title": "Promise Error Handling",
+    "desc": "Handling errors in promises",
+    "date": "",
+    "dates read ": "",
+    "contents": ["how to handle errors"],
+    "why" : ["red color - in browser - means we have not handled -it ll silently sit in browsers console , user will not know anything went wrong .So we should always always catch and handle errors gracefully "]
+}
