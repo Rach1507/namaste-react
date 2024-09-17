@@ -2,7 +2,10 @@
 
 
 greet();
-// helllo(); - helllo will throw an error as it is not hoisted - 
+console.log(helllo); // undefined - it is hoisted 
+
+// helllo(); 
+// - helllo will throw an error as it hoisted and undefined - declarations are hoisted not values - 
 
 
 //function statement

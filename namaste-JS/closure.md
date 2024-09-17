@@ -1,6 +1,5 @@
 function + lexical scope = closure 
 
-
 function  + along with its lexical scope = closure
 
 reference to the outer scope variable is maintained even after the outer function has finished executing

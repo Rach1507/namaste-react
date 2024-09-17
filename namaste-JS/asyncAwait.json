@@ -1,0 +1,11 @@
+{
+    "what is async?":"key word used before a func to create async function",
+    "what is async func, async vs normal func" : "func that returns a promise ",
+    "return promise ? ":"either u should return a promise",
+    "return normal ? ":"or return normal - string or object - it ( javascript ) will wrap it inside the promise and returned",
+    "if promise is returned": "- it ll not be wrapped ",
+    "whats the use of async await ":"async await are a combo used to handle promises",
+    "why do we need to handle promises - we have .then methods right ?" : "",
+    "await": ["used before promise "," has to be used inside async function", "await resolves the promise "]
+
+}

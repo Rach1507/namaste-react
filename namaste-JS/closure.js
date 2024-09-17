@@ -33,3 +33,35 @@ function setTimeOutUsingClosure(){
 }
 
 setTimeOutUsingClosure();
+
+
+// using IIFE - immediately invoked function expressions 
+
+function setTimeOutUsingVarAndClosure() {
+    for (var i = 1; i <= 5; i++) {
+        (function(num) {
+            setTimeout(function() {
+                console.log(num);
+            }, num * 1000);
+        })(i);
+    }
+}
+
+// Test the function
+setTimeOutUsingVarAndClosure();
+
+
+function setTimeOutUsingVarAndClosure() {
+    function createTimeout(num) {
+        setTimeout(function() {
+            console.log(num);
+        }, num * 1000);
+    }
+
+    for (var i = 1; i <= 5; i++) {
+        createTimeout(i);
+    }
+}
+
+// Test the function
+setTimeOutUsingVarAndClosure();
