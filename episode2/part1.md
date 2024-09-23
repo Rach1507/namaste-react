@@ -65,4 +65,9 @@ npx parcel index.html
 browser error - browser scripts normal javascript cant have imports and exports 
 how to resolve - use type module in script tag
 
-<script type="module" scr="./App.js">
+< script type="module" scr="./App.js" >
+
+
+
+
+TODO:https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658
