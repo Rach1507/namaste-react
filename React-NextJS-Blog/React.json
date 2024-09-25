@@ -1,0 +1,31 @@
+{
+    "title": "Getting Started with React",
+    "how to add React to ur project ": {
+        "unpkg.com": [
+            "react is the core React library",
+            "react-dom provides DOM-specific methods that enable you to use React with the DOM."
+        ],
+        "npx": []
+    },
+    "replace imperative code with declarative ": {
+        "React.createRoot": " method to target a specific DOM element and create a root to display your React Components in",
+        "root.render() ": "Then, add the root.render() method to render your React code to the DOM.,"
+    },
+    "JSX": "syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax.",
+    "3 rules": ["closingtag","camelCase pretty much everything","Caps letter?"],
+    "Whys the error": "But browsers don't understand JSX out of the box, so you'll need a JavaScript compiler",
+    "Babel": [
+        "to transform your JSX code into regular JavaScript.",
+        "install",
+        " <script type='text/jsx'> "
+    ],
+    "code is shortended, how ? ": [
+        " what React does,",
+        " it's a library ",
+        " that contains reusable snippets of code that perform tasks on your behalf ",
+        " in this case, updating the UI."
+    ],
+    "quiz": {
+        "Why do you need to compile your React code?": "React uses JSX which needs to be compiled into JavaScript."
+    }
+}

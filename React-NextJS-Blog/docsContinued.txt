@@ -1,0 +1,102 @@
+Nextjs docs 
+
+
+
+React core concepts : components , state, props 
+
+Components 
+- Ui - broken down - building blocks 
+- pieces of ui 
+- reusable 
+- Self contained 
+- Lego brick analogy 
+- Capital letter - diff from normal func
+- Use using <> like html 
+- Nest 
+
+Modularity - allows code to be more maintainabl -  update , add without affecting others 
+
+Javascript 
+Components - Function that return Jsx( ui element) 
+Nest the components - Tree -
+This modular format allows you to reuse components in different places inside your app.
+
+But think about reusing - if u use th same 2 times - same thing is rendered 
+What if u wanted it with diff data 
+
+Just like how we pass attributes to html 
+
+Href to a 
+
+Similarly , 
+In the same way, you can pass pieces of information as properties to React components. These are called props
+
+props - properties 
+- pieces of information 
+- Passed to react 
+
+On the consumer side - 
+React component - js fun - custom arguments
+- To be designed to accept custom components 
+- These props - change ui , component's behavior
+- Passed further down 
+- Recieve it - destructor it - use it 
+* You need a way to tell React that this is a JavaScript variable.
+* Use it within {}
+
+Data rendering model -  In React, data flows down the component tree. 
+This is referred to as one-way data flow
+
+If you run this code, 
+React will give us a warning about a missing key prop. 
+This is because React needs something to uniquely identify items in an array so it knows which elements to update in the DOM.
+
+Interactivity - add 
+- Html - where will user interest 
+- Listen to event - camelCase - 
+- Handle event - above return
+
+Hook - set of functions 
+State - piece of info ass with comp. - that will change overtime - 
+the React hook used to manage state is called: useState()
+
+Log a plain old - const stateResult = useState(“”);
+
+
+Nextjs - has prewritten code to define routes 
+App - index 
+Layout js - common - header and footer , nv=avbar 
+
+ 
+Server components - 
+Client components - 
+
+To understand the Diff- 2 environments ]
+
+Client - 
+Server
+Netwrok boundary 
+React - u can define new boundary 
+Choose what has to be rendered and sent on server - 
+What needs to be rendered on ui 
+
+
+Choose what has to be rendered and sent on server -  why ??? - reduce code sent to client app , improves performance , 
+ Next.js uses Server Components by default
+= improve your application's performance 
+=s you don't have to take additional steps to adopt them.
+
+
+Move it 'use client';
+Fast refresh 
+
+
+Links : https://nextjs.org/docs/app/building-your-application/rendering/server-components
+https://nextjs.org/docs/app/building-your-application/rendering/client-components
+https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
+https://react.dev/reference/rsc/use-client
+https://react.dev/reference/rsc/use-server
+
+————————————————————————————————————————————————————————————————————————————————————
+
+React website : The library for web and native user interfaces

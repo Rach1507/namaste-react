@@ -1,0 +1,28 @@
+{
+    "html vs dom": "HTML represents the initial page content, whereas the DOM represents the updated page content which was changed by the JavaScript code you wrote.",
+    "updating ui with javascript": [
+        "getElementByid",
+        "verbose",
+        "As the size of an app or team grows, it can become increasingly challenging to build this way.",
+        "With this approach, developers spend a lot of time writing instructions to tell the computer how it should do things.",
+        "But wouldn't it be nice to describe <b> what you want </b> to show and  <b>let the computer figure out how to update the DOM? </b>"
+    ],
+    "declarative vs imperative": [
+        "updating ui with javascript - above ex of imperative - You're writing the steps for how the user interface should be updated. ",
+        "for ui - a declarative approach is often preferred - it can speed things up",
+        "imperative programming is like giving a chef step-by-step instructions on how to make a pizza.",
+        " Declarative programming is like ordering a pizza without being concerned about the steps it takes to make the pizza. 🍕"
+    ],
+    "react": [
+        "React is a popular declarative library that you can use build user interfaces.",
+        "you can tell React what you want to happen to the user interface",
+        "React will figure out the steps of how to update the DOM on your behalf."
+    ],
+    "src" : "https://nextjs.org/learn/react-foundations/updating-ui-with-javascript#imperative-vs-declarative-programming",
+    "images": ["./lesson3-1.png" ,"./lesson3-2.png"],
+    "additional resources - todos" : [
+        "https://developer.chrome.com/docs/devtools/dom/",
+        "https://developer.chrome.com/docs/devtools/dom/#appendix",
+        "https://react.dev/learn/reacting-to-input-with-state#how-declarative-ui-compares-to-imperative"
+    ]
+}
