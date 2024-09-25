@@ -1,0 +1,15 @@
+{
+    " what is jsx": [
+        "javascript syntax extension",
+        "html/xml like syntax"
+    ],
+    "why was jsx created": "react.createElement that this , its tedious , volumous - not readable - not concise ",
+    "React - rethinking best practices ": " js = html = css - seperation of concern , React combines both - seperate of component  ",
+    "JSX - transpiled - render": [
+        "js code is transpiled before it goes to js engine",
+        "js engine gets code that browser can understand",
+        "JSX =>(by babel) to React.createElement =>returns => ReactElement(object) =>  htmlElement => render "
+    ],
+    "what is babel":"babel - compile , tranpiler - older browser compatible",
+    "jsx - other syntax differences from html " : ["3 rules from react website" , "stricter","multiple lines - use (); to wrap inside"]
+}
