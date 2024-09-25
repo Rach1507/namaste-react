@@ -1,0 +1,42 @@
+{
+    "title": "whats React ,what is NextJS , why nextjs",
+    "what is NextJS": "Next.js is a flexible React framework that gives you building blocks to create fast, full-stack web applications.",
+    "flexible": "",
+    "framework": "By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.",
+    "building blocks of web applications": [
+        "User Interface - how users will consume and interact with your application.",
+        "Routing - how users navigate between different parts of your application.",
+        "Data Fetching - where your data lives and how to get it.",
+        "Rendering - when and where you render static or dynamic content.",
+        "Integrations - what third-party services you use (for CMS, auth, payments, etc.) and how you connect to them.",
+        "Infrastructure - where you deploy, store, and run your application code (serverless, CDN, edge, etc.).",
+        " Performance ",
+        "Scalability",
+        "Developer Experience "
+    ],
+    "react ": [
+        "JavaScript library for building interactive user interfaces",
+        "just takes care of ui - provides helpful functions (APIs) to build UI"
+    ],
+    "why nextJS - what does React do": [
+        "unopinionated about - how much . where  ",
+        "adv of this - leads to ecosystem of many 3rd party ",
+        "disadv - complete React application from the ground up requires some effort. Developers need to spend time configuring tools and reinventing solutions for common application requirements."
+    ],
+    "so where next js comes into pic ": [
+        "React framework ",
+        "that gives you building blocks to create web applications",
+        "Next.js handles the tooling and configuration needed for React",
+        "provides additional structure",
+        "features",
+        "optimizations for your application."
+    ],
+    "so how to use nextjs": "You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, and caching - all while improving the developer and end-user experience.",
+    "src": "https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs",
+    "images": [
+        "./lesson1-1.png"
+    ],
+    "additional-todos": [
+        ""
+    ]
+}
