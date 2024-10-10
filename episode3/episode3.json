@@ -12,4 +12,5 @@
     ],
     "what is babel":"babel - compile , tranpiler - older browser compatible",
     "jsx - other syntax differences from html " : ["3 rules from react website" , "stricter","multiple lines - use (); to wrap inside"]
+    
 }
