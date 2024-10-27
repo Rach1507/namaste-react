@@ -25,10 +25,10 @@ how async -
 
 through web apis - browser api - setTimeout , fetch , ajax , dom events
 
-broswer -has js engine, has timers , has url , has ability to connect to server , has to connect to bluetooth , location , camera etc 
+browser -has js engine, has timers , has url , has ability to connect to server , has to connect to bluetooth , location , camera etc 
 ![alt text](image-10.png)
 
-js enginer - call stack - inside call stack - LECs are pushed and popped off - js is executed 
+js engineer - call stack - inside call stack - LECs are pushed and popped off - js is executed 
 
 so how is all these super powers accessed - ?  - through web apis - its exported as window object 
 

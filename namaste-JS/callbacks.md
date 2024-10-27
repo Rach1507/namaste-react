@@ -16,6 +16,13 @@ callback - benefits -
     - helps us do async ops in JS . 
     - in fact , we can say callbacks - are the reason async programming is possible in JS .
 
+Why callbacks enable async programming in JS:
+
+JavaScript is single-threaded (one thing happens at a time)
+But we often need to handle operations that take time (like API calls, file operations)
+Callbacks allow us to say "run this code now, and when it's done, run this other code"
+Without callbacks, we'd have to wait for each operation to finish before moving to the next one
+
 
 
 callback - issues  : 
